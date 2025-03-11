@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Montserrat', Arial, sans-serif;
+    user-select: none;   
+}
+p{
+    font-size: small;
+}
+:root{
+    --black-color: #1B1C1E;
+    --white-color: #fff;
+    --ash-color:#595C89;
+    --dark-white:#F4F4F4;
+    --light-pink:#F7F0EA;
+    --grey-color:rgb(97, 94, 94);
+}
+body{
+    overflow-x: hidden;
+}
+.about-us-page-container{
+    position: relative;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black-color);
+    width: 100%;
+    height: 70px;
+    color: var(--white-color);
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo p a:visited{
+    color: white;
+    text-decoration: none;
+}
+.logo p a{
+    color: white;
+    text-decoration: none;
+    font-family:'itim', poppins, sans-serif;
+}
+header .nav-list {
+    place-content: center;
+    margin-right: 50px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 550;
+    gap: 35px;
+}
+header nav ul li {
+    cursor: pointer;
+}
+header nav ul li a:visited{
+    color: var(--white-color);
+    text-decoration: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.logo img {
+    height: 80px;
+    width: 120px;
+    cursor: pointer;
+}
+
+
+.hero-section{
+    margin-top: 70px; 
+    position: relative;
+    
+}
+.hero-section img{
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+   position: relative;
+   left: 0;
+   right: 0;
+}
+.hero-section h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-40%);
+    font-size: xx-large;
+}
+.Difference{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Difference .text{
+    text-align: center;
+    width: 900px;
+    line-height: 25px;
+}
+.Difference .text h4{
+    margin-bottom: 8px;
+}
+.Difference .rectangles{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.Difference .rectangles >div{
+    background-color: black;
+    color: white;
+    width: 120px;
+    aspect-ratio: 1/0.8;
+    text-align: center;
+    place-content: center;
+}
+
+.first-RHS-container,.second-RHS-container{
+    display: flex;  
+   padding-inline: 200px
+}
+.first-RHS-container img, .second-RHS-container img{
+    width: 368px;
+}
+.LHS, .second-LHS{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 400px;
+   margin-left: 200px;
+}
+.LHS p{
+    line-height: 25px;
+}
+.second-LHS{
+    margin-left: 0;
+}
+.second-LHS p{
+    line-height: 25px;
+}
+.second-RHS-container {
+   background: #FAFAFA;
+   padding-block: 100px;
+   margin-top: 70px;
+}
+.second-RHS{
+   margin-left: 200px;
+}
+.tech-div1{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+}
+.tech-div1 p{
+ width: 600px;
+ color: var(--grey-color);
+ font-size:small;
+ margin-top:10px ;
+}
+.tech-div2 img{
+    width: 250px;
+}
+.tech-div2{
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.tech-div2 p{
+    width: 250px;
+    line-height:19px;
+    margin-top: 10px;
+    color: var(--grey-color);
+    font-size: small;
+}
+.After-Technical-section{
+    padding-inline: 200px;
+    margin-top: 70px;
+    background-color: #FAFAFA;
+    padding-block: 90px;
+}
+.After-Technical-section-div-container1 img{
+    width: 368px;
+}
+.After-Technical-section-div-container1{
+    display: flex;
+}
+.After-Technical-section-div-container1 .Functional-superiority{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+.Functional-superiority p{
+    line-height: 25px;
+    margin-top: 20px;
+}
+.After-Technical-section-div-container2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.innovate-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    margin-top: 78px;
+}
+.innovate-div1{
+    text-align: center;
+}
+.innovate-div1 p{
+    font-size: small;
+    line-height: 25px;
+}
+.innovate-div1 h5{
+    margin-block: 20px;
+}
+.innovate-div > div{
+    width: 500px;
+    height: 300px;
+}
+.innovate-div p{
+    line-height: 25px;
+    font-size: small;
+    margin-top: 10px;
+}
+.innovate-div h5{
+    margin-top: 7px;
+}
+.green-section img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.recycled-plastic-section {
+    padding-inline: 200px;
+    display: flex;
+    gap: 200px;
+    margin-top: 45px;
+}
+.recycled-plastic-section img{
+    width: 368px;
+}
+.recycled-plastic-section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 40px;
+    background-color: black;
+    color: white;
+    width: 368px;
+}
+.recycled-plastic-section div p{
+    line-height: 20px;
+    margin-top: 15px;
+}
+.last-section{
+    display: flex;
+    margin-inline: 200px;
+    margin-top: 70px;
+}
+.last-section > div> img{
+    width: 200px;
+}
+.title{
+    margin-block: 15px;
+    font-size: medium;
+    font-weight: 700;
+}
+/*footer design begins*/
+footer{
+  background-color: var(--black-color);
+  margin-top: 70px;
+  height: 300px;
+  color: white;
+  padding-block-start: 50px;
+  padding-block-end: 30px;
+}
+.footer-div-upper {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline:200px ;
+}
+.left-div div{
+  display: flex;
+  flex-direction: column;
+}
+.left-div{
+  display: flex;
+  gap: 60px;
+  line-height: 30px;
+}
+.footer-div-upper a{
+  color: var(--footer-text-color);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all .6 ease-in-out;
+}
+.footer-div-upper a:hover{
+  transform: scale(1.02);
+  font-weight: bold;
+}
+.footer-div-upper a:visted{
+  text-decoration: none;
+  color: var(--footer-text-color);
+}
+.footer-div-upper p{
+  font-size: 12px;
+  color:var(--footer-text-color)
+}
+.footer-row-title{
+  font-size: 14px;
+  font-weight: 500;
+}
+.right-div{
+  background-color: white;
+  width: 400px;
+  height: fit-content;
+  place-content: center;
+  padding-inline: 20px;
+}
+.right-div button{
+  padding: 5.6px;
+  cursor: pointer;
+}
+
+.right-div p{
+  color: black;
+  line-height: 20px;
+}
+.Newsletter{
+  font-size: large;
+  font-weight: bold;
+}
+.right-div input{
+  width: 300px;
+  height: 30px;
+  outline: none;
+  padding-inline:7px;
+  margin-block: 6px;
+}
+.lower-left-hand{
+  display: flex;
+  gap: 4px;
+}
+.footer-div-lower{
+  display: flex;
+  padding-inline: 90px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.lower-right-hand{
+  margin-right: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.lower-right-hand button{
+  width: 100px;
+  padding: 7px;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.lower-right-hand a{
+  color: black;
+  text-decoration: none;
+}
+.lower-right-hand a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+/* Media Query for Tablets */
+@media screen and (max-width: 1024px) {
+    /* Header adjustments */
+    .logo {
+        margin-left: 20px;
+    }
+    
+    header .nav-list {
+        margin-right: 20px;
+    }
+    
+    header nav ul {
+        gap: 15px;
+    }
+    
+    /* About sections adjustments */
+    .Difference .text {
+        width: 90%;
+    }
+    
+    .first-RHS-container, .second-RHS-container {
+        padding-inline: 50px;
+    }
+    
+    .LHS, .second-LHS {
+        margin-left: 50px;
+    }
+    
+    .second-RHS {
+        margin-left: 50px;
+    }
+    
+    /* Technical section adjustments */
+    .tech-div1 p {
+        width: 90%;
+    }
+    
+    .tech-div2 {
+        gap: 20px;
+    }
+    
+    /* After Technical section */
+    .After-Technical-section {
+        padding-inline: 50px;
+    }
+    
+    .After-Technical-section-div-container1 .Functional-superiority {
+        margin-left: 50px;
+    }
+    
+    /* Recycled plastic section */
+    .recycled-plastic-section {
+        padding-inline: 50px;
+        gap: 50px;
+    }
+    
+    /* Last section */
+    .last-section {
+        margin-inline: 50px;
+    }
+    
+    /* Footer adjustments */
+    .footer-div-upper {
+        padding-inline: 50px;
+    }
+}
+
+/* Media Query for Mobile Landscape */
+@media screen and (max-width: 768px) {
+    /* Header adjustments */
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+    
+    .logo {
+        margin-left: 0;
+    }
+    
+    header .nav-list {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    /* Hero section adjustment */
+    .hero-section {
+        margin-top: 120px;
+    }
+    
+    /* Difference section */
+    .Difference .rectangles {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    /* RHS containers */
+    .first-RHS-container, .second-RHS-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .LHS, .second-LHS {
+        width: 90%;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .second-RHS {
+        margin-left: 0;
+    }
+    
+    /* Technical section */
+    .tech-div2 {
+        flex-wrap: wrap;
+    }
+    
+    /* After Technical section */
+    .After-Technical-section-div-container1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .After-Technical-section-div-container1 .Functional-superiority {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .innovate-div {
+        flex-direction: column;
+    }
+    
+    /* Recycled plastic section */
+    .recycled-plastic-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    /* Last section */
+    .last-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    /* Footer */
+    footer {
+        height: auto;
+    }
+    
+    .footer-div-upper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .left-div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .right-div {
+        width: 90%;
+    }
+    
+    .footer-div-lower {
+        flex-direction: column;
+        gap: 20px;
+        padding-inline: 20px;
+    }
+    
+    .lower-right-hand {
+        margin-right: 0;
+        align-items: center;
+    }
+}
+
+/* Media Query for Mobile Portrait */
+@media screen and (max-width: 480px) {
+    /* Header navigation */
+    header nav ul {
+        gap: 10px;
+        font-size: 14px;
+    }
+    
+    /* Hero section */
+    .hero-section h1 {
+        font-size: x-large;
+    }
+    
+    /* Technical section */
+    .tech-div2 img {
+        width: 200px;
+    }
+    
+    .tech-div2 p {
+        width: 200px;
+    }
+    
+    /* Innovate div */
+    .innovate-div > div {
+        width: 90%;
+        height: auto;
+    }
+    
+    /* Recycled plastic section */
+    .recycled-plastic-section img,
+    .recycled-plastic-section div {
+        width: 90%;
+    }
+    
+    /* Newsletter input */
+    .right-div input {
+        width: 80%;
+    }
+    
+    /* Last section images */
+    .last-section > div > img {
+        width: 150px;
+    }
+}
+
+/* Media Query for Small Devices */
+@media screen and (max-width: 320px) {
+    /* Header logo */
+    .logo img {
+        height: 60px;
+        width: 90px;
+    }
+    
+    header nav ul li {
+        font-size: 12px;
+    }
+    
+    /* Hero section */
+    .hero-section h1 {
+        font-size: large;
+    }
+}

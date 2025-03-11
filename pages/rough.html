@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Rating System</title>
+    <style>
+      /* CSS */
+      .rating-container {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 2rem;
+      }
+
+      .star {
+        color: #d3d3d3; /* Light gray color for inactive stars */
+        cursor: pointer;
+      }
+
+      .star:hover,
+      .star.active {
+        color: #ffbc00; /* Yellow color for active stars */
+      }
+
+      .rating-value {
+        font-size: 1rem;
+        margin-left: 15px;
+      }
+
+      #submit-rating {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+      }
+
+      #submit-rating:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    
+
+    <script>
+      // JavaScript
+      const stars = document.querySelectorAll('.star');
+      const ratingText = document.getElementById('rating-text');
+      let rating = 0;
+
+      // Check if there's a saved rating in localStorage
+      if (localStorage.getItem('rating')) {
+        rating = parseInt(localStorage.getItem('rating'));
+        ratingText.innerText = rating;
+        updateActiveStars(rating);
+      }
+
+      // Function to update the active stars
+      function updateActiveStars(value) {
+        stars.forEach(star => {
+          if (parseInt(star.getAttribute('data-value')) <= value) {
+            star.classList.add('active');
+          } else {
+            star.classList.remove('active');
+          }
+        });
+      }
+
+      // Function to update the rating based on the clicked star
+      function updateRating(value) {
+        rating = value;
+        ratingText.innerText = rating;
+
+        // Store the rating in localStorage
+        localStorage.setItem('rating', rating);
+
+        // Update active stars
+        updateActiveStars(rating);
+      }
+
+      // Add hover effect on each star
+      stars.forEach(star => {
+        star.addEventListener('mouseover', () => {
+          const value = parseInt(star.getAttribute('data-value'));
+          stars.forEach(star => {
+            if (parseInt(star.getAttribute('data-value')) <= value) {
+              star.classList.add('active');
+            } else {
+              star.classList.remove('active');
+            }
+          });
+        });
+
+        // Remove hover effect when mouse leaves the star
+        star.addEventListener('mouseleave', () => {
+          updateActiveStars(rating);
+        });
+
+        // When a star is clicked, set the rating
+        star.addEventListener('click', () => {
+          updateRating(parseInt(star.getAttribute('data-value')));
+        });
+      });
+    </script>
+  </body>
+</html>

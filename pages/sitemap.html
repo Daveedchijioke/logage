@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Map - Bronx Luggage</title>
+    <style>
+                :root {
+        --black-color: #1b1c1e;
+        --white-color: #fff;
+        --ash-color: #595c89;
+        --dark-white: #f4f4f4;
+        --light-pink: #f7f0ea;
+        --grey-color: rgb(97, 94, 94);
+        --black-hover: #303133;
+        }
+                body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .sitemap-container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .sitemap-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sitemap-list li {
+            background: var(--black-color);
+            color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .sitemap-list li:hover {
+            transform: scale(1.05);
+            background-color: var(--black-hover);
+        }
+    </style>
+</head>
+<body>
+   
+   
+    <div class="sitemap-container">
+        <h2>Site Map</h2>
+        <ul class="sitemap-list">
+            <li onclick="navigateTo('../pages/index.html')">Home</li>
+            <li onclick="navigateTo('../pages/About Us page.html')">About Us</li>
+            <li onclick="navigateTo('../pages/Contact Us page.html')">Contact Us</li>
+            <li onclick="navigateTo('../pages/FAQpage.html')">FAQ</li>
+            <li onclick="navigateTo('../pages/Gallery page.html')">Gallery</li>
+        </ul>
+    </div>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,905 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Backpack Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "large",
+    "price": 1800,
+    "image": "../images/productImages/black louis vuitton backpack bag for men1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Designer Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "medium",
+    "price": 1500,
+    "image": "../images/productImages/black louis vuitton bag for men4.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Premium Shoulder Bag",
+    "category": "travel bag",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1300,
+    "image": "../images/productImages/black louis vuitton shoulderbag bag for men3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Elegant Shoulder Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/black louis vuitton shouolderbag  bag for men2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Classic Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "large",
+    "price": 1900,
+    "image": "../images/productImages/black Louis Vuitton travel bags for men1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Luxury Travel Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/black Louis Vuitton travel bags for men2.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Designer Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "medium",
+    "price": 1400,
+    "image": "../images/productImages/black Louis Vuitton travel bags for men3.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Premium Travel Bag",
+    "category": "travel bag",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1200,
+    "image": "../images/productImages/black Louis Vuitton travel bags for men4.jpg"
+  },
+  {
+    "id": 9,
+    "name": " Travel Backpack ",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/black louis vuttion backpack bag for men 5.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Classic Luggage",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "large",
+    "price": 1950,
+    "image": "../images/productImages/black luggage for men.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Luxury Luggage ",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "large",
+    "price": 1700,
+    "image": "../images/productImages/black luggage for men1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Designer Luggage",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "medium",
+    "price": 1450,
+    "image": "../images/productImages/black luggage for men10.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Premium Luggage",
+    "category": "travel bag",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1100,
+    "image": "../images/productImages/black luggage for men2.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Elegant Luggage",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1500,
+    "image": "../images/productImages/black luggage for men3.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Classic Luggage",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "large",
+    "price": 2000,
+    "image": "../images/productImages/black luggage for men4.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Luxury Luggage",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "large",
+    "price": 1650,
+    "image": "../images/productImages/black luggage for men5.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Designer Luggage",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "medium",
+    "price": 1350,
+    "image": "../images/productImages/black luggage for men6.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Premium Luggage",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1150,
+    "image": "../images/productImages/black luggage for men7.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Elegant Luggage",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1550,
+    "image": "../images/productImages/black luggage for men8.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Classic Luggage",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/black luggage for men9.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Stylish Rolling Luggage",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1200,
+    "image": "../images/productImages/black rolling Louis Vuitton luggage for men1.webp"
+  },
+  {
+    "id": 22,
+    "name": "Modern Rolling Luggage",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/black rolling Louis Vuitton luggage for men2.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Urban Rolling Luggage",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "large",
+    "price": 1800,
+    "image": "../images/productImages/black rolling Louis Vuitton luggage for men3.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Compact Rolling Luggage",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1250,
+    "image": "../images/productImages/black_rolling_Louis_Vuitton_luggage_for_men4-removebg-preview.png"
+  },
+  {
+    "id": 25,
+    "name": "Traveler's Backpack",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "large",
+    "price": 1850,
+    "image": "../images/productImages/blue Louis Vuitton backpack for men 1.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Classic Shoulder Bag",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue Louis Vuitton shoulder for men4.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Modern Sling Bag",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/blue Louis Vuitton Slingbag for men3.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Urban Tote Bag",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Blue",
+    "size": "small",
+    "price": 1400,
+    "image": "../images/productImages/blue Louis Vuitton tote for men 2.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Vintage Travel Bag",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue Louis Vuitton travel bags for men1.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Travel Rolling Luggage",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/black_rolling_Louis_Vuitton_luggage_for_men4-removebg-preview.png"
+  },
+  {
+    "id": 31,
+    "name": "Classic Backpack",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue Louis Vuitton backpack for men 1.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Modern Shoulder",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/blue Louis Vuitton shoulder for men4.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Urban Tote Bag",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Blue",
+    "size": "small",
+    "price": 1400,
+    "image": "../images/productImages/blue Louis Vuitton tote for men 2.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Vintage Travel Bag",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue Louis Vuitton travel bags for men1.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Modern Travel Bags",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/blue Louis Vuitton travel bags for men2.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Classic Travel Bag",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue Louis Vuitton travel bags for men3.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Modern Luggage",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/blue luggage for men1.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Urban Travel Bags",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1400,
+    "image": "../images/productImages/black Louis Vuitton travel bags for men4.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Vintage Rolling Luggage",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue rolling Louis Vuitton luggage for men1.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Urban Rolling Luggage",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/blue rolling Louis Vuitton luggage for men2.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Classic Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue rolling Louis Vuitton luggage for men3.jpg "
+  },
+  {
+    "id": 42,
+    "name": "Modern Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/blue rolling Louis Vuitton luggage for men4.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Urban Backpack",
+    "category": "rolling luggage",
+    "brand": "Prada",
+    "color": "Green",
+    "size": "small",
+    "price": 1400,
+    "image": "../images/productImages/green louis vuitton backpack bag for men1.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Vintage Tote Bag",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Green",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/green louis vuitton tote bag bag for men1.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Premium Travel Bag",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Green",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/green Louis Vuitton travel bags for men1.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Luxury Travel Bag",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Green",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/green Louis Vuitton travel bags for men2.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Modern Travel Bag",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Green",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/green Louis Vuitton travel bags for men3.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Urban Travel Bag",
+    "category": "rolling luggage",
+    "brand": "Prada",
+    "color": "Green",
+    "size": "small",
+    "price": 1400,
+    "image": "../images/productImages/green Louis Vuitton travel bags for men4.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Vintage Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Green",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/green rolling Louis Vuitton luggage for men1.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Travel Backpack",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Red",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/red Louis Vuitton backpack bag for men1.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Classic Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Red",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/green rolling Louis Vuitton luggage for men2.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Modern Travel Bag",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Red",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/red Louis Vuitton travel bags for men1.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Urban Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Prada",
+    "color": "Red",
+    "size": "small",
+    "price": 1400,
+    "image": "../images/productImages/red rolling Louis Vuitton luggage for men1.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Vintage Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Red",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/red rolling Louis Vuitton luggage for men2.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Travel Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/blue rolling luggage for men2.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Classic Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue rolling luggage for men2.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Modern Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/blue rolling luggage for men3.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Urban Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Prada",
+    "color": "Blue",
+    "size": "small",
+    "price": 1400,
+    "image": "../images/productImages/blue rolling luggage for men4.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Vintage Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Gucci",
+    "color": "Green",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/blue rolling luggage for men5.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Travel Rolling Luggage",
+    "category": "rolling luggage",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/productImages/black rolling Louis Vuitton luggage for men4.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Luxury Travel Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Green",
+    "size": "large",
+    "price": 1800,
+    "image":"../images/luggage page images/women'srolling green luggage4.jpeg"
+  },
+  {
+    "id": 62,
+    "name": "Designer Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Green",
+    "size": "medium",
+    "price": 1500,
+    "image:": "../images/luggage page images/women'srolling green luggage4.jpeg"
+  },
+  {
+    "id": 63,
+    "name": "Premium Travel Bag",
+    "category": "travel bag",
+    "brand": "Prada",
+    "color": "Red",
+    "size": "small",
+    "price": 1300,
+    "image": "../images/luggage page images/women's totebag red3.jpeg"
+  },
+  {
+    "id": 64,
+    "name": "Elegant Travel Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Red",
+    "size": "medium",
+    "price": 1600,
+    "image":"../images/luggage page images/women's totebag red2.jpeg"
+  },
+  {
+    "id": 65,
+    "name": "Classic Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Red",
+    "size": "large",
+    "price": 1900,
+    "image": "../images/luggage page images/women's totebag red.jpeg"
+  },
+  {
+    "id": 66,
+    "name": "Luxury Travel Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image":"../images/luggage page images/women's totebag blue2.jpeg" 
+  },
+  {
+    "id": 67,
+    "name": "Designer Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1400,
+    "image":"../images/luggage page images/women's totebag blue.jpeg"
+  },
+
+  {
+    "id": 68,
+    "name": "Premium Travel Bag",
+    "category": "travel bag",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1200,
+    "image": "../images/luggage page images/women's totebag black.jpeg"
+  },
+  {
+    "id": 69,
+    "name": "Elegant Travel Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1650,
+    "image": "../images/luggage page images/women's totebag black 2.jpeg"
+  },
+  {
+    "id": 70,
+    "name": "Classic Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Red",
+    "size": "large",
+    "price": 1950,
+    "image": "../images/luggage page images/women's rolling red luggage3.jpeg"
+  },
+  {
+    "id": 71,
+    "name": "Luxury Travel Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Red",
+    "size": "large",
+    "price": 1700,
+    "image": "../images/luggage page images/women's rolling red luggage2.jpeg"
+  },
+  {
+    "id": 72,
+    "name": "Designer Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Red",
+    "size": "medium",
+    "price": 1450,
+    "image": "../images/luggage page images/women's rolling red luggage.jpeg"
+  },
+  {
+    "id": 73,
+    "name": "Premium Travel Bag",
+    "category": "travel bag",
+    "brand": "Prada",
+    "color": "Green",
+    "size": "small",
+    "price": 1100,
+    "image": "../images/luggage page images/women's rolling green luggage3.jpeg"
+  },
+  {
+    "id": 74,
+    "name": "Elegant Travel Bag",
+    "category": "travel bag",
+    "brand": "Louis Vuitton",
+    "color": "Green",
+    "size": "medium",
+    "price": 1500,
+    "image": "../images/luggage page images/women's rolling green luggage2.jpeg"
+  },
+  {
+    "id": 75,
+    "name": "Classic Travel Bag",
+    "category": "travel bag",
+    "brand": "Gucci",
+    "color": "Red",
+    "size": "large",
+    "price": 2000,
+    "image": "../images/luggage page images/women's backpack red2.jpeg"
+  },
+  {
+    "id": 76,
+    "name": "Luxury Backpack",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "large",
+    "price": 1650,
+    "image":"../images/luggage page images/women's backpack blue3.jpeg"
+  },
+  {
+    "id": 77,
+    "name": "Designer Backpack",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Black",
+    "size": "medium",
+    "price": 1350,
+    "image": "../images/luggage page images/women's backpack black.jpeg"
+  },
+  {
+    "id": 78,
+    "name": "Premium Backpack",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Black",
+    "size": "small",
+    "price": 1150,
+    "image": "../images/luggage page images/women's backpack black2.jpeg" 
+  },
+  {
+    "id": 79,
+    "name": "Elegant Backpack",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "medium",
+    "price": 1550,
+    "image":"../images/luggage page images/women's backpack black3.jpeg" 
+  },
+  {
+    "id": 80,
+    "name": "Classic Backpack",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Blue",
+    "size": "large",
+    "price": 1750,
+    "image":"../images/luggage page images/women's backpack blue2.jpeg" 
+  },
+  {
+    "id": 81,
+    "name": "Stylish Backpack",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Blue",
+    "size": "small",
+    "price": 1200,
+    "image":"../images/luggage page images/women's backpack blue.jpeg"
+  },
+  {
+    "id": 82,
+    "name": "Modern Backpack",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Blue",
+    "size": "medium",
+    "price": 1600,
+    "image":"../images/luggage page images/women's backpack blue2.jpeg" 
+  },
+  {
+    "id": 83,
+    "name": "Urban Backpack",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Orange",
+    "size": "large",
+    "price": 1800,
+    "image": "../images/productImages/female red backpack bag1.jpg" 
+  },
+  {
+    "id": 84,
+    "name": "Compact Backpack",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Orange",
+    "size": "small",
+    "price": 1250,
+    "image":  "../images/productImages/female red bag 1.jpg" 
+  },
+  {
+    "id": 85,
+    "name": "Traveler's Backpack",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Black",
+    "size": "large",
+    "price": 1850,
+    "image": "../images/productImages/female red crossbody bag 1.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Classic Backpack",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Green",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/female red shoulder bag1.jpg" 
+  },
+  {
+    "id": 87,
+    "name": "Modern Backpack",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Green",
+    "size": "medium",
+    "price": 1600,
+    "image": "../images/productImages/luggage8.webp"
+  },
+  {
+    "id": 88,
+    "name": "Urban Backpack",
+    "category": "backpack",
+    "brand": "Prada",
+    "color": "Orange",
+    "size": "small",
+    "price": 1400,
+    "image":"../images/productImages/luggage13.webp"
+  },
+  {
+    "id": 89,
+    "name": "Vintage Backpack",
+    "category": "backpack",
+    "brand": "Gucci",
+    "color": "Green",
+    "size": "large",
+    "price": 1750,
+    "image": "../images/productImages/luggage4.webp"
+  },
+  {
+    "id": 90,
+    "name": "Travel Backpack",
+    "category": "backpack",
+    "brand": "Louis Vuitton",
+    "color": "Green",
+    "size": "medium",
+    "price": 1650,
+    "image":  "../images/productImages/luggage14.webp" 
+  }
+  
+ 
+]
